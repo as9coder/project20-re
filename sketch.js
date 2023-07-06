@@ -32,8 +32,8 @@ function setup(){
 
     //created multiple of particle bodies 
     var particle_options = {
-      restitution:0.5,
-      friction:0.1
+      restitution:0.4,
+      friction:0.01
     }
 
     particle1 = Bodies.circle(220,10,10,particle_options);
